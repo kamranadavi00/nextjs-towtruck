@@ -1,0 +1,42 @@
+/* Header.module.css */
+.header {
+  background-color: #b3f1ed;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  row-gap: "10px";
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 20px; /* Adjusted margin */
+}
+
+.menu li:first-child {
+  margin-left: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #666666;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color: #333333;
+}
