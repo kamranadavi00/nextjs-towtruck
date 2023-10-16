@@ -2,11 +2,17 @@
 
 import Link from 'next/link';
 import { Box, Grid } from "@mui/material";
+import Image from 'next/image';
 const Header=()=>{
     return(
     <Box  >
       <h1 className=" pt-1 text-2xl text-center flex flex-col items-center justify-center gap-8"> در‌باره‌ما</h1>
-            <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
+      
+            <Grid className='flex flex-col pt-8 items-center justify-center'  item xl={6} lg={6} md={6} sm={6} xs={6}>
+            <Image className='animate-pulse ' loading="lazy"  alt="This photo is a tow truck"  width={130} height={130} sizes="100vw" 
+           src="/Images/5.png"
+           
+           />
             
       <p className=" p-5 items-start justify-start">       
       
